@@ -1,7 +1,7 @@
 This repository provides the OpenCL and Matlab codes that simulate the phase separation model from our manuscript, “Biomolecular condensates bridge experiment and theory of mass-conserving reaction-diffusion systems in phase separation” by Cheng Li, Man-Ting Guo, Xiaoqing He, Quan-Xing Liu, and Zhi Qi, (2024), submitted, DOI: xxx.
-## The code and data also were deposited at figshare with DOI: 10.6084/m9.figshare.26057656
-Guide for Code
-## This folder includes five subfolders, from Fig. 2 to Fig. 6.
+The code and data also were deposited at figshare with DOI: 10.6084/m9.figshare.26057656
+## Guide for Code
+This folder includes five subfolders, from Fig. 2 to Fig. 6.
 ## Fig2:
 -	Fig2b_code: Contains the numerical simulation codes for Figure 2b.
 -	Fig2c_code: Contains the numerical simulation codes for Figure 2c.
