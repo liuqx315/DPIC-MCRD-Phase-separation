@@ -71,7 +71,7 @@ ylim([5,25])
 xlim([100,8500])
 %xlim([500,8000])
 yticks([6 10 15 25])
-xticks([100 500  3000  8000])
+xticks([100 500  2000  8000])
 xlabel('Time, $t\ (s)$', 'fontsize',22,'Interpreter','latex')
 ylabel('$q_{\rm max}$','fontsize',22,'Interpreter','latex')
 set(gca,'xscale','log','yscale','log','linewidth',1,'fontsize',FS,'TickLength',[0.02 0.025]);
