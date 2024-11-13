@@ -3,8 +3,8 @@ clc; clear all;
 % photo number
 num=5;
 
-%%group:20+0.6
-folder = "../20230704&05 Droplet fusion/20+0.6 400R/20+0.6 400R FAM";
+%% group:20+0.6
+folder = "../fig5data/experimentdata/20+0.6 400R/20+0.6 400R FAM";
 Time=120+30*linspace(0,239,240);
 
 pick_num=round(linspace(40,240,5));
@@ -44,7 +44,7 @@ end
 
 T=120+(pick_num-1)*30;
 
-save('Exp2006v3.mat','T','Sq_rt','Kmax','SqQmax2','Q_Qmax') ;
+% save('Exp2006v3.mat','T','Sq_rt','Kmax','SqQmax2','Q_Qmax') ;
 %%
 data=load("Exp2006v3.mat")
 markers = {'o','s','d','v','+','^','>','*','x','p','h','<'};
