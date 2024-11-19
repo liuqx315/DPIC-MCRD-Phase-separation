@@ -3,6 +3,8 @@ This repository provides the OpenCL and Matlab codes that simulate the phase sep
 The code and data also were deposited at figshare with DOI: 10.6084/m9.figshare.26057656
 ## Guide for Code
 This folder includes five subfolders, from Fig. 2 to Fig. 6.
+## Fig1:
+-	Fig1fn_code: data fit the response function and BIC/AIC criterion for model selection. 
 ## Fig2:
 -	Fig2b_code: Contains the numerical simulation codes for Figure 2b.
 -	Fig2c_code: Contains the numerical simulation codes for Figure 2c.
