@@ -2,16 +2,14 @@
 clc; clear all;
 
 num=5;
-fname='rho22.5_v30'; 
+fname='rho4.0_v20'; 
 Nrun=1;
 dat1=load(strcat('../fig5data/',fname,'/sklaw_data',num2str(Nrun),'.mat'));
 
 datDDA=dat1.B;
 Time=dat1.Time;
-%StartT=50;
-
 StartT=40;
-pick_num=round(linspace(160,194,5));
+pick_num=round(linspace(150,200,5));
 y = ones(5, 1);
 pick_num=pick_num'.*y;
 
@@ -23,6 +21,7 @@ SqQmax2 = [];
 Q_Qmax = [];
 
 
+%%
 for Nrun=1:10 % take average value for each time
     dat1=load(strcat('../fig5data/',fname,'/sklaw_data',num2str(Nrun),'.mat'));
     Nrun
@@ -62,15 +61,14 @@ for Nrun=1:10 % take average value for each time
     SqQmax2(:,:,Nrun)=TSqQmax2;
     Q_Qmax(:,:,Nrun)=TQ_Qmax;
 end
-
 Mean_SqQmax2=mean(SqQmax2,3);
 Mean_Q_Qmax=mean(Q_Qmax,3);
 T=round(Time(pick_num))';
 
 save(strcat(fname,'.mat'),'T','Sq_rt','Kmax','Mean_SqQmax2','Mean_Q_Qmax') ;
+
 %%
-%%
-data=load(strcat(fname,'.mat'))
+data=load(strcat(fname,'.mat'));
 
 markers = {'o','s','d','v','^','>','*','x','p','h','<'};
 Times = data.T;
@@ -88,16 +86,9 @@ for i = 1:length(Times)
     hold on
 end
 hold on
-% Q_Qmax2=data2.Q_Qmax;
-% SqQmax2_2=data2.SqQmax2;
-% 
-% for i = 1:length(Times)
-%     plot(Q_Qmax2(:,i),SqQmax2_2(:,i),markers{i+5},'MarkerSize',8,'MarkerFaceColor',colors(i+5,:)) ; % 
-%     hold on
-% end
 
 xxx = 0.8:1:30 ;
-yyy = 3.3*10^3.5*xxx.^(-4.0) ;
+yyy = 5.0*10^3.5*xxx.^(-4.0) ;
 h1 = plot(xxx,yyy,'--','linewidth',2,'color','b') ;
 
 
@@ -109,11 +100,10 @@ yticks([10^(-1) 10^1 10^3 10^5]);
 xlabel('$q/q_{\rm max}$','Interpreter','LaTex','Fontsize',FS) ;
 ylabel('Structure function, $S(q)q_{\rm max}^2$','Interpreter','LaTex','Fontsize',FS) ;
 h = legend(num2str(T),'Interpreter','latex');
-% h = legend('$1514$ s', '$2291$ s', '$3311$ s', '$5012$ s', '$7244$ s');
 set(h,'Interpreter','latex','Fontsize',FS,'Box','off','Location','northeast','Position',[0.084,0.135,0.322,0.279],'NumColumns',1);
-text(5,90,'Slope $\sim -4.0$','fontsize',FS,'rotation',-53,'Interpreter','LaTex') ;
+text(5,100,'Slope $\sim -4.0$','fontsize',FS,'rotation',-53,'Interpreter','LaTex') ;
 % text(0.16,20,'Simulations:','fontsize',FS,'Interpreter','LaTex') ;
-% title(h,'$\quad \qquad v_0=30, \rho =22.5$','Interpreter','LaTex')
+% title(h,{['$\quad \qquad v_0=25, \rho =15.0$']},'Interpreter','LaTex')
 set(gca,'xscale','log','yscale','log','linewidth',1,'fontsize',FS,'TickLength',[0.02 0.025],'xminortick','on','yminortick','on');
 
 save2pdf(strcat(fname,'.pdf'),gcf,600) ;
