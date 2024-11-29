@@ -14,7 +14,7 @@ This folder includes five subfolders, from Fig. 2 to Fig. 6.
 ## Fig4:
 -	fig3code, fig4data, and fig4figs folders: Include the code, data, and output results, respectively.
 ## Fig5:
--	Stores the code and data within different subfolders, respectively.
+-	Stores the code and data within different subfolders, respectively. Data for plotting the figure were deposited in Figshare, including both experimental and simulation data.
 ## Fig6:
 -	Contains the data on ripple development from the previously published literature by Ping Lv, Clément Narteau, et al., PNAS 2021 Vol. 118 No. 17 e2024105118. Data is taken from Figure 5(B).
 
