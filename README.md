@@ -17,7 +17,7 @@ This folder includes five subfolders, from Fig. 2 to Fig. 6.
 -	Stores the code and data within different subfolders, respectively. Data for plotting the figure were deposited in Figshare, including both experimental and simulation data.
 ## Fig6:
 -	Contains the data on ripple development from the previously published literature by Ping Lv, Clément Narteau, et al., PNAS 2021 Vol. 118 No. 17 e2024105118. Data is taken from Figure 5(B).
-
+![fig2/Fig2c_code/Fig2c_phase](Fig2c_phase.jpg)
 ## Questions:
 Please contact Quan-Xing Liu (qx.liu@sjtu.edu.cn) for any questions.
 Note that within the codes symbol of beta and k2 should be switch for their value. 
