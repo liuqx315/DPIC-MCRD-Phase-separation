@@ -1,6 +1,8 @@
 This repository provides the OpenCL and Matlab codes that simulate the phase separation model from our manuscript, “Biomolecular condensates bridge experiment and theory of mass-conserving reaction-diffusion systems in phase separation” by Cheng Li, Man-Ting Guo, Xiaoqing He, Quan-Xing Liu, and Zhi Qi, (2024), submitted, DOI: xxx.
 
-The code and data also were deposited at figshare with DOI: 10.6084/m9.figshare.26057656
+![Fig2c_phase](Fig2c_phase.png)
+
+The code and data also were deposited at Figshare with DOI: 10.6084/m9.figshare.26057656
 ## Guide for Code
 This folder includes five subfolders, from Fig. 2 to Fig. 6.
 ## Fig1:
@@ -18,7 +20,6 @@ This folder includes five subfolders, from Fig. 2 to Fig. 6.
 ## Fig6:
 -	Contains the data on ripple development from the previously published literature by Ping Lv, Clément Narteau, et al., PNAS 2021 Vol. 118 No. 17 e2024105118. Data is taken from Figure 5(B).
 
-![Fig2c_phase](Fig2c_phase.png)
 ## Questions:
 Please contact Quan-Xing Liu (qx.liu@sjtu.edu.cn) for any questions.
 Note that within the codes symbol of beta and k2 should be switch for their value. 
