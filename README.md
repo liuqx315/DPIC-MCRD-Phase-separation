@@ -1,10 +1,10 @@
 This repository provides the OpenCL and Matlab codes that simulate the phase separation model from our manuscript, “Biomolecular condensates bridge experiment and theory of mass-conserving reaction-diffusion systems in phase separation” by Cheng Li, Man-Ting Guo, Xiaoqing He, Quan-Xing Liu, and Zhi Qi, (2024), submitted, DOI: xxx.
 
 <div align="center">
-  <h1> Figure summary : Phase profile of phase separation predicted with theoretical model </h1>
+  <h3> Figure summary: Phase profile of phase separation predicted with theoretical model </h3>
   <img src="https://github.com/liuqx315/DPICs-MCRD-Phase-separation/blob/main/Fig2c_phase.png" width="350"> <img src="https://github.com/liuqx315/DPICs-MCRD-Phase-separation/blob/main/fig2/Fig2c_code/Fig2c_phase.jpg" width="350">
 </div>
-% ![[Fig2c_phase](Fig2c_phase.png)](https://github.com/liuqx315/DPICs-MCRD-Phase-separation/blob/main/fig2/Fig2c_code/Fig2c_phase.jpg)
+& ![[Fig2c_phase](Fig2c_phase.png)](https://github.com/liuqx315/DPICs-MCRD-Phase-separation/blob/main/fig2/Fig2c_code/Fig2c_phase.jpg)
 
 The code and data also were deposited at Figshare with DOI: 10.6084/m9.figshare.26057656
 ## Guide for Code
