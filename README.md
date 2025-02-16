@@ -5,7 +5,7 @@ This repository provides the OpenCL and Matlab codes that simulate the phase sep
   <img src="https://github.com/liuqx315/DPICs-MCRD-Phase-separation/blob/main/Fig2c_phase.png" width="400"> <img src="https://github.com/liuqx315/DPICs-MCRD-Phase-separation/blob/main/fig2/Fig2c_code/Fig2c_phase.jpg" width="400">
 </div>
 
-<h4> The code and data also were deposited at Figshare with DOI: 10.6084/m9.figshare.26057656 </h4>
+<h3> The code and data also were deposited at Figshare with DOI: 10.6084/m9.figshare.26057656 </h3>
 
 ## Guide for Code
 This folder includes five subfolders, from Fig. 2 to Fig. 6.
